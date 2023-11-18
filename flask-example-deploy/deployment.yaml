@@ -19,4 +19,4 @@ spec:
     spec:
       containers:
       - image: https://730135569722.dkr.ecr.ap-northeast-2.amazonaws.com/flaskapp:latest
-        name: fflaskapp
+        name: flaskapp
