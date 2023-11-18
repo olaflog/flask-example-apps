@@ -18,6 +18,6 @@ spec:
         app: flask
     spec:
       containers:
-      - image: ec2-43-202-0-81.ap-northeast-2.compute.amazonaws.com/
+      - image: ec2-43-202-0-81.ap-northeast-2.compute.amazonaws.com/admin/
         name: flask-example
 
