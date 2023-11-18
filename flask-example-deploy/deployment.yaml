@@ -18,5 +18,5 @@ spec:
         app: flask
     spec:
       containers:
-      - image: https://ip-10-101-1-96.ap-northeast-2.compute.internal/admin/flask-example:3
+      - image: https://ec2-43-202-0-81.ap-northeast-2.compute.amazonaws.com/admin/nginx
         name: flask-example
