@@ -18,5 +18,5 @@ spec:
         app: flask
     spec:
       containers:
-      - image: https://ec2-43-202-0-81.ap-northeast-2.compute.amazonaws.com/harbor/projects/2/repositories/flask-example:latest
+      - image: ec2-43-202-0-81.ap-northeast-2.compute.amazonaws.com/harbor/projects/2/repositories/flask-example:latest
         name: flask-example
