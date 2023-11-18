@@ -1,22 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: null
+  name: nginx-deployment
   labels:
-    app: flask
-  name: flask
+    app: nginx
 spec:
-  replicas: 4
+  replicas: 3
   selector:
     matchLabels:
-      app: flask
-  strategy: {}
+      app: nginx
   template:
     metadata:
-      creationTimestamp: null
       labels:
-        app: flask
+        app: nginx
     spec:
       containers:
-      - image: https://ec2-43-202-0-81.ap-northeast-2.compute.amazonaws.com/admin/flask-example:latest
-        name: flask-example
+      - name: nginx
+        image: https://ec2-43-202-0-81.ap-northeast-2.compute.amazonaws.com/admin/nginx:latest
